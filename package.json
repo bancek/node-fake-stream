@@ -1,0 +1,19 @@
+{
+  "name": "fake-stream",
+  "version": "0.1.0",
+  "description": "Fake file stream for testing",
+  "main": "index.js",
+  "repository": "git://github.com/bancek/node-fake-stream",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "stream",
+    "test"
+  ],
+  "author": "Luka Zakrajsek <luka@koofr.net>",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "~1.12.0"
+  }
+}

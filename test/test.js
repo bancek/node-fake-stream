@@ -53,7 +53,7 @@ describe('FakeStream', function (){
 
         /file-name$/.test(stream.path).should.be.true;
 
-        stream.close();
+        stream.destroy();
 
         done();
     });
